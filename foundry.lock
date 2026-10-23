@@ -1,0 +1,35 @@
+{
+  "lib/aave-v3-core": {
+    "tag": {
+      "name": "v1.19.4",
+      "rev": "b74526a7bc67a3a117a1963fc871b3eb8cea8435"
+    }
+  },
+  "lib/account-abstraction": {
+    "rev": "cc3893bcaf2272c163ce89d5eb9eadb8e6b52db7"
+  },
+  "lib/chainlink-brownie-contracts": {
+    "rev": "f06ed4c7e43de0359e0e337ce56e55cab90b0178"
+  },
+  "lib/forge-std": {
+    "rev": "77041d2ce690e692d6e03cc812b57d1ddaa4d505"
+  },
+  "lib/foundry-devops": {
+    "rev": "f3d704ebfc804b8a3e969e8d0ed6c45e6f344804"
+  },
+  "lib/openzeppelin-contracts": {
+    "rev": "e34251682bac9c3252af30e91e999f13dd098b9f"
+  },
+  "lib/v3-core": {
+    "tag": {
+      "name": "v1.0.0",
+      "rev": "e3589b192d0be27e100cd0daaf6c97204fdb1899"
+    }
+  },
+  "lib/v3-periphery": {
+    "tag": {
+      "name": "v1.3.0",
+      "rev": "80f26c86c57b8a5e4b913f42844d4c8bd274d058"
+    }
+  }
+}

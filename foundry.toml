@@ -3,7 +3,13 @@ src = "src"
 out = "out"
 libs = ["lib"]
 remappings = ['@openzeppelin=lib/openzeppelin-contracts',
-'@account-abstraction=lib/account-abstraction'
+'@account-abstraction=lib/account-abstraction', '@uniswap/=lib/',  "@aave/=lib/aave-v3-core/"
 ]
+via_ir = true
+
+# Fork de Celo mainnet para tests
+[profile.celo]
+eth_rpc_url = "https://forno.celo.org"
+chain_id = 42220
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
